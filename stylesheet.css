@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    background-image: url("php_code_grayish.jpg");
+}
+
+header {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #444;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    width: 210px;
+}
+
+li form {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #777;
+}
+
+
+.center {
+    background-color: #222;
+    align-self: center;
+    width: 25%;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.php {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.klasse {
+    display: block;
+    background-color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+    
+.command-container {
+    width: auto;
+    background-color: #222;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.command-box {
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: solid 2px #555;
+}
+
+input {
+    width: auto;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+button {
+    height: 44px;
+    font-size: 22px;
+}
+
+.randy {
+    width: 245px;
+    font-size: 22px;
+    text-align: center;
+    padding: 7px;
+}
+
+.hinweis{
+    width:auto;
+    padding: 20px;
+}
+
+#beschreibung{
+    max-width: 235px;
+    min-width: 235px;
+    max-height: 170px;
+    border-radius: 4px;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
