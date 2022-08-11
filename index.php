@@ -79,7 +79,7 @@
 			if ($queryResults > 0) {
 				while ($row = mysqli_fetch_assoc($result)) {
 					echo "<div>
-							<div class='command-box'>
+							<div class='klasse'>
 							<p style='font-size:large;'>".$row['Art']." <span style='font-size:xx-large;font-weight:bold;'>".$row['namo']."</span></p><br>
 							<p>".$row['beschreibung']."</p><br>
 							<p>".$row['beispiel']."</p><br>
