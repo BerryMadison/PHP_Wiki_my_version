@@ -54,17 +54,7 @@
 		
 		if (!isset($_POST['submit-search'])) {
 			echo "<div class='command-container'>";
-			$queryResults = mysqli_num_rows($ergebnis);
-			if ($queryResults > 0) {
-				while ($row = mysqli_fetch_assoc($ergebnis)) {
-					echo "<div class='klasse'>
-							<p style='font-size:large;margin:0;'>".$row['Art']."</p>
-							<p style='font-size:xx-large;font-weight:bold;margin:0;'>".$row['namo']."</p><br>
-							<p>".$row['beschreibung']."</p><br>
-							<p class='>".$row['beispiel']."</p><br>
-						</div>";
-				}
-			}
+			echo "<p style='text-align:center;'>Geben sie ein Suchbegriff ein</p>";
 			echo "</div>";
 		} else {
 			$search = mysqli_real_escape_string($link, $_POST['search']);
